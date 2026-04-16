@@ -2,15 +2,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package helena.pbo2026dclass;
+package Pertemuan5;
 
 /**
  *
  * @author LENOVO
  */
-public class helo_github {
+public class Anjing extends Hewan{
     
-     public static void main(String[] args) {
-        System.out.println("Hello my github!!");
+    @Override
+    public void suara(){
+        System.out.println("Suara anjing: Guk guk...");
     }
+    
 }
